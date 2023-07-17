@@ -1,0 +1,13 @@
+version: '2.2'
+services:
+  yandex_downloader:
+    image: yuchoba/test_task:latest
+    container_name: test_task
+    restart: unless-stopped
+    volumes:
+      - db:/db
+    ports:
+      - 8000:8000
+
+volumes:
+  db:
