@@ -1,6 +1,6 @@
 version: '2.2'
 services:
-  yandex_downloader:
+  fastapi:
     image: test_task:latest
     container_name: test_task
     restart: unless-stopped
