@@ -5,7 +5,7 @@ from schemas import Prices_load, Status
 from tortoise.contrib.fastapi import HTTPNotFoundError, register_tortoise
 
 
-app = FastAPI()
+app = FastAPI(title="Тестовое задание для SMIT.Studio")
 
 
 @app.get("/prices", response_model=Prices_load)
