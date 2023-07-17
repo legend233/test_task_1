@@ -10,17 +10,6 @@ class Prices(models.Model):
     rate = fields.FloatField()
 
 
-    @classmethod
-    def get_json(cls):
-        dct = {
-            cls.date: {
-            "cargo_type": cls.cargo_type,
-            "rate": cls.rate
-            }
-        }
-        return json.dumps(dct)
-
-
 Prices_Pydantic = pydantic_model_creator(Prices, name="Prices")
 PricesIn_Pydantic = pydantic_model_creator(Prices, name="PricesIn", exclude_readonly=True)
 
