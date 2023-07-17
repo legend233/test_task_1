@@ -1,7 +1,7 @@
 version: '2.2'
 services:
   yandex_downloader:
-    image: yuchoba/test_task:latest
+    image: test_task:latest
     container_name: test_task
     restart: unless-stopped
     volumes:
