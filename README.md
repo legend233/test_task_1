@@ -27,7 +27,7 @@ _______________
 <!-- ABOUT THE TASK -->
 ## О задании
 
-[Ссылка на задание](https://docs.google.com/document/d/1ET0V9ZsLNsdwkaZQ-M3nC6Kkvx2KS75UUROg3kc68UA/edit)
+[Ссылка на задание](https://github.com/legend233/test_task_1/blob/main/test_task.pdf)
 
 
 
